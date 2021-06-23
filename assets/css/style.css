@@ -10,10 +10,9 @@ nav{
     display: block;
     width: 150px;
     line-height: 50px;
-   
-    vertical-align: middle;
     background-color: #0e9fc4;
 }
+
 .boxnav{
     display: flex;
     flex-wrap: wrap;
