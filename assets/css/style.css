@@ -1,3 +1,34 @@
+/*  */
+nav{
+    background-color: rgb(206, 168, 131);
+    height: 125px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    color: rgb(222, 41, 22);
+}
+
+.boxnav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+img{
+    height: 75px;
+    width: 75px;
+}
+/* css de Etienne */
+.boxnav2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 22.5px;
+}
 body{
     background: url(../img/bckgrnd.jpg) no-repeat fixed;
     background-size: 100%;
