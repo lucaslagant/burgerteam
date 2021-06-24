@@ -124,8 +124,7 @@ img.displayed2{
     color: black;
     width: 500px;
     height: auto;
-    margin-top: 50px;
-    margin-bottom: 20px;   
+    margin-bottom: 50px;   
     font-size: 30px;
     line-height: 5px;
 }
@@ -224,6 +223,7 @@ li{
     text-align: left;
     
 }
-
-
-
+.end, button{
+    margin-bottom: 20px;
+}
+}
