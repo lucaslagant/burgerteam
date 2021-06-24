@@ -22,6 +22,12 @@ nav{
     margin-top: 15px;
 }
 img{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.reseau{
     height: 50px;
     width: 50px;
 }  
@@ -53,6 +59,8 @@ body{
     color:#000;
     font-family: fantasy;
     background-color: rgba(255, 255, 255, .6);
+    display: flex;
+    flex-wrap: wrap;
     width: 80%;
     height: auto;
     margin-top: 50px;
@@ -102,12 +110,34 @@ img.displayed{
     font-size: 30px;
     line-height: 5px;
 }
+div{
+    text-align: center;
+}
+img.displayed2{
+    margin-top: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;   
+    font-size: 30px;
+    line-height: 5px;
+}
 h1{
     line-height: 5px;
 }
 h1, h2{
+    padding-bottom: 50px;
+    text-decoration: underline;
     text-align: center;
     
+}
+h1, h2, h3, h4, h5, p{
+    padding-left: 50px;
+    padding-right: 50px;
 }
 /* menu déroulant */
 /*Reset CSS*/
