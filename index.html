@@ -9,19 +9,23 @@
     <header>
         <nav>
             <div class="boxnav">
-                A propos                
-            </div>
+                <a href="#apropos">Qui sommes-nous?</a></div>
             <div class="boxnav">
-                <li class="produit"><a href="produit">Produit</a>
-                    <ul class="submenu">
-                        <li><a href="#">Starter</a></li>
-                        <li><a href="#">Burger</a></li>
-                        <li><a href="#">Accompagnements</a></li>
-                        <li><a href="#">Desserts</a></li>
-                        <li><a href="#">Boissons</a></li>
-                    </ul>
-                </li>                 
+                <a href="#produits">Produits</a>
             </div>
+            <!-- <div class="boxnav">
+            <ul>
+                <li class="deroulant produits"><a href="#">Produits</a>
+                  <ul class="sous">
+                    <li><a href="#">Starters</a></li>
+                    <li><a href="#">Burgers</a></li>
+                    <li><a href="#">Accompagnements</a></li>
+                    <li><a href="#">Désserts</a></li>
+                    <li><a href="#">Boissons</a></li>                    
+                  </ul>
+                </li>
+              </ul> 
+            </div>            -->
             <div class="boxnav">
                 Localisation
             </div>
@@ -32,13 +36,17 @@
     </header>
     <body>         
     <div class="textstart"></div>        
-        <div class="text row">
-            <img src="assets/img/burger.png" class="logo" alt="logo">
-            <h1>TEAM</h1>
+        <div class="text2 row">
+            <img src="assets/img/logo.png" class="displayed" alt="logo">
+            <a href="https://fontmeme.com/fr/police-burger-king/">
+            <img src="https://fontmeme.com/permalink/210624/7d9206a402687b3d21d7b103c5b53e75.png" class="displayed" alt="police-burger-king">
+            </a>
+            <!-- <h1>BURGER</h1>
+            <h1>TEAM</h1> -->
         </div>
         <!-- Antoine Qui sommes-nous?             -->
         <div class="text row">
-
+            <h2 id="apropos"> Qui sommes-nous?</a></h2>
         </div>
         <!-- Lucas Staters -->
         <div class="text row">
@@ -56,7 +64,7 @@
             </div>
             <!-- Lucas Burger -->
         <div class="text row" >
-            <h2>Burger</h2>
+            <h2 id="produits">Burger</h2>
             <div>
                 <img src="assets/img/cheesburger.jpg" alt="cheesburger">
                 <h3>Cheesburger Classique</h3>
@@ -69,7 +77,9 @@
                 <img src="assets/img/burgerpainnoir.jpg.png" alt="Burger pain noir">
                 <h3>Burger spéciale</h3>
             </div>
-        </div>
+        <div class="textend"></div>
+        </div>                    
+        
         <!-- Lucas Accompagnements -->
         <div class="text row">
             <h2>Accompagnements</h2>
