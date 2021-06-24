@@ -1,3 +1,4 @@
+
 nav{
     background-color: rgba(206, 169, 131, 0.651);
     height: 125px;
@@ -70,3 +71,53 @@ nav li:hover .submenu{
 
 }
   
+/* css de Etienne */
+.boxnav2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 25%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 22.5px;
+}
+body{
+    background: url(../img/bckgrnd.jpg) no-repeat fixed;
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.textstart{
+    width: 10%;
+    justify-content: flex-start;
+}
+.text{
+    color: rgb(52, 52, 148);
+    background-color: rgba(255, 255, 255, .6);
+    width: 80%;
+    height: 1000px;
+    margin-top: 50px;
+    align-self: center;
+    border: 1px solid white;    
+    font-size: 30px;
+    border-radius: 40px;
+}
+.textend{
+    width: 10%;
+    justify-content: flex-end;
+}
+.box{    
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: space-between;
+}
+.row{
+    flex-direction: column;
+    align-content: center;
+}
+.logo{
+    align-self: center;
+}
