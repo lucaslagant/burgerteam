@@ -1,13 +1,13 @@
 
 nav{
     background-color: rgba(255, 255, 255, .6);
-    height: 125px;
+    height: 75px;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     color: black;
     font-family: fantasy;
-    border-radius: 40px;
+    border-radius: 5px;
     margin-top: 20px;
     font-size: 30px;
     scroll-behavior: smooth;
@@ -19,11 +19,17 @@ nav{
     width: 75%;
     text-align: center;
     justify-content: center;
-    margin-top: 55px;
+    margin-top: 15px;
 }
 img{
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+.reseau{
+    height: 50px;
+    width: 50px;
 }  
 /* css de Etienne */
 .boxnav2{
@@ -32,7 +38,7 @@ img{
     width: 25%;
     text-align: center;
     justify-content: center;
-    margin-top: 22.5px;
+    margin-top: 15;
 }
 body{
     background: url(../img/bckgrnd.jpg) no-repeat fixed;
@@ -51,15 +57,17 @@ body{
 }
 .text{
     color:#000;
-    font-family: fantasy; 
+    font-family: fantasy;    
     background-color: rgba(255, 255, 255, .6);
+    display: flex;
+    flex-wrap: wrap;
     width: 80%;
     height: auto;
     margin-top: 50px;
     align-self: center;
     border: 1px solid white;    
     font-size: 30px;
-    border-radius: 40px;
+    border-radius: 5px;
     font-family: fantasy;
     display: flex;
     flex-wrap: wrap;
@@ -73,7 +81,7 @@ body{
     align-self: center;
     border: 1px solid white;    
     font-size: 30px;
-    border-radius: 40px;
+    border-radius: 5px;
     justify-content: flex-end;
 }
 .textend{
@@ -105,12 +113,34 @@ img.displayed{
     font-size: 30px;
     line-height: 5px;
 }
+div{
+    text-align: center;
+}
+img.displayed2{
+    margin-top: 4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;   
+    font-size: 30px;
+    line-height: 5px;
+}
 h1{
     line-height: 5px;
 }
 h1, h2{
+    padding-bottom: 50px;
+    text-decoration: underline;
     text-align: center;
     
+}
+h1, h2, h3, h4, h5, p{
+    padding-left: 50px;
+    padding-right: 50px;
 }
 /* menu déroulant */
 /*Reset CSS*/
@@ -120,7 +150,7 @@ nav{
     background-color: rgba(255, 255, 255, .6);
     border: 1px solid white;    
     font-size: 30px;
-    border-radius: 40px;
+    border-radius: 5px;
     position: sticky;
     top: 0px;
 }
@@ -167,7 +197,7 @@ nav a:hover{
     background-color: rgba(255, 255, 255, .6);
     border: 1px solid white;    
     font-size: 30px;
-    border-radius: 40px;
+    border-radius: 5px;
     width: 100%;
     z-index: 1000;
 }
