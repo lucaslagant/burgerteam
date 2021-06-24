@@ -1,10 +1,12 @@
 nav{
-    background-color: rgb(206, 168, 131);
+    background-color: rgba(206, 169, 131, 0.651);
     height: 125px;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     color: rgb(222, 41, 22);
+    border-radius: 40px;
+    margin-top: 20px;
 }
 
 .boxnav{
