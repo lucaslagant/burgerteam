@@ -1,3 +1,4 @@
+/*  */
 nav{
     background-color: rgb(206, 168, 131);
     height: 125px;
@@ -19,6 +20,7 @@ img{
     height: 75px;
     width: 75px;
 }
+/* css de Etienne */
 .boxnav2{
     display: flex;
     flex-wrap: wrap;
