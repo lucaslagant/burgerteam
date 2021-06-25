@@ -46,7 +46,7 @@ a{
     width: 25%;
     text-align: center;
     justify-content: center;
-    margin-top: 15;
+    margin-top: 10px;
 }
 body{
     background: url(../img/bckgrnd.jpg) no-repeat fixed;
@@ -63,6 +63,11 @@ body{
     width: 50%;
     justify-content: flex-start;
 }
+/* .fixed{
+    position: fixed;
+    width: 100%;
+    margin-bottom: 100px;
+} */
 .text{
     font-family: fantasy;    
     background-color: rgba(255, 255, 255, .6);
@@ -98,8 +103,8 @@ body{
     flex-direction: row;
 }
 .flexright{
-    width: 40%;
-    padding-top: 175px;
+    width: 50%;
+    padding-top: 100px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
