@@ -1,4 +1,6 @@
-
+*{
+    scroll-behavior: smooth;   
+}
 nav{
     background-color: rgba(255, 255, 255, .6);
     height: 75px;
@@ -10,9 +12,11 @@ nav{
     border-radius: 5px;
     margin-top: 20px;
     font-size: 30px;
-    scroll-behavior: smooth;
 }
-
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
 .boxnav{
     display: flex;
     flex-wrap: wrap;
@@ -21,6 +25,7 @@ nav{
     justify-content: center;
     margin-top: 15px;
 }
+
 img{
     height: 100px;
     width: 100px;
@@ -45,7 +50,7 @@ body{
     background-size: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;    
+    flex-direction: column;        
 }
 .textstart{
     width: 10%;
@@ -83,6 +88,19 @@ body{
     font-size: 30px;
     border-radius: 5px;
     justify-content: flex-end;
+}
+.flexleft{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flexright{
+    width: 40%;
+    padding-top: 175px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .textend{
     width: 10%;
