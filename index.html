@@ -6,7 +6,7 @@
     <title>Burger Team</title>    
 </head>
     <header>
-        <nav class="fixed">
+        <nav id="navb">
             <div class="boxnav">
                 <a href="#apropos">Qui sommes-nous?</a></div>
             <div id="menu">
@@ -14,11 +14,11 @@
                     <li>
                         <a href="#">Produits</a>
                         <ul>
-                            <li><a href="#starters">Starters</a></li>
-                            <li><a href="#burgers">Burgers</a></li>
-                            <li><a href="#accomp">Accompagnements</a></li>
-                            <li><a href="#dessert">Desserts</a></li>
-                            <li><a href="#boisson">Boissons</a></li>
+                            <li><a href="#starters">Starters</a>
+                            <li><a href="#burgers">Burgers</a>
+                            <li><a href="#accomp">Accompagnements</a>
+                            <li><a href="#dessert">Desserts</a>
+                            <li><a href="#boisson">Boissons</a>
                        </ul>
                     </li>               
                 </ul>               
@@ -30,6 +30,7 @@
                 <a href="#contact"> Contact</a>
             </div>
         </nav>
+        <button class="fixed"><a href="#navb">REMONTER</a></button>
     </header>
     <body>         
     <div class="textstart"></div>        
@@ -119,10 +120,8 @@
                 </div>
             </div>
         <div class="textend"></div>
-        </div>                    
-        
-        <!-- Lucas Accompagnements -->
-       
+        </div>
+        <!-- Lucas Accompagnements -->       
         <div class="text row">
             <h2 id="accomp">Accompagnements</h2>
             <div>
@@ -171,7 +170,7 @@
                 <h3>Eau minéral</h3>
                 <img class="displayed2" src="assets/img/volvic.jpg" alt="Bouteille d'eau">                
             </div>
-<!-- Lucas Location -->
+        <!-- Lucas Location -->
         </div>
         <div class="text row">
             <h2 id="localisation">Localisation</h2>
@@ -188,8 +187,6 @@
         </div>
         <!-- Lucas contact -->
         <div class="text row">
-            <h2 id="contact">Contact</h2>
-            <div class="text row end">
                 <h2 id="contact">Contact</h2>
                 <form action="" method="POST">
                     <p> Nom :<input type="text"></p>

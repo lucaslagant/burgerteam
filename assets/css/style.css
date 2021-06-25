@@ -63,11 +63,18 @@ body{
     width: 50%;
     justify-content: flex-start;
 }
-/* .fixed{
+.fixed{
     position: fixed;
-    width: 100%;
-    margin-bottom: 100px;
-} */
+    width: 100px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 30px;
+    opacity: .6;    
+    border-radius: 5px;
+    border: 1px solid white;
+    font-family: fantasy;
+    font-size: 20px;
+}
 .text{
     font-family: fantasy;    
     background-color: rgba(255, 255, 255, .6);
