@@ -36,6 +36,9 @@ img{
     height: 50px;
     width: 50px;
 }  
+a{
+    color: #551a8b;
+}
 /* css de Etienne */
 .boxnav2{
     display: flex;
@@ -61,7 +64,6 @@ body{
     justify-content: flex-start;
 }
 .text{
-    color:#000;
     font-family: fantasy;    
     background-color: rgba(255, 255, 255, .6);
     display: flex;
@@ -181,7 +183,7 @@ li{
 }
 #menu ul li a{
     text-decoration: none;
-    color: black;
+    color: #551a8b;
      width: 150px;
     height: 30px;
     display: block;
