@@ -1,4 +1,6 @@
-
+*{
+    scroll-behavior: smooth;   
+}
 nav{
     background-color: rgba(255, 255, 255, .6);
     height: 75px;
@@ -10,9 +12,11 @@ nav{
     border-radius: 5px;
     margin-top: 20px;
     font-size: 30px;
-    scroll-behavior: smooth;
 }
-
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
 .boxnav{
     display: flex;
     flex-wrap: wrap;
@@ -21,6 +25,7 @@ nav{
     justify-content: center;
     margin-top: 15px;
 }
+
 img{
     height: 100px;
     width: 100px;
@@ -31,6 +36,9 @@ img{
     height: 50px;
     width: 50px;
 }  
+a{
+    color: #551a8b;
+}
 /* css de Etienne */
 .boxnav2{
     display: flex;
@@ -38,14 +46,14 @@ img{
     width: 25%;
     text-align: center;
     justify-content: center;
-    margin-top: 15;
+    margin-top: 10px;
 }
 body{
     background: url(../img/bckgrnd.jpg) no-repeat fixed;
     background-size: 100%;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;    
+    flex-direction: column;        
 }
 .textstart{
     width: 10%;
@@ -55,8 +63,19 @@ body{
     width: 50%;
     justify-content: flex-start;
 }
+.fixed{
+    position: fixed;
+    width: 100px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 30px;
+    opacity: .6;    
+    border-radius: 5px;
+    border: 1px solid white;
+    font-family: fantasy;
+    font-size: 20px;
+}
 .text{
-    color:#000;
     font-family: fantasy;    
     background-color: rgba(255, 255, 255, .6);
     display: flex;
@@ -83,6 +102,19 @@ body{
     font-size: 30px;
     border-radius: 5px;
     justify-content: flex-end;
+}
+.flexleft{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.flexright{
+    width: 50%;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .textend{
     width: 10%;
@@ -141,83 +173,7 @@ h1, h2, h3, h4, h5, p{
     padding-left: 50px;
     padding-right: 50px;
 }
-/* menu déroulant */
-/*Reset CSS*/
-nav{
-    width: 100%;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, .6);
-    border: 1px solid white;    
-    font-size: 30px;
-    border-radius: 5px;
-    position: sticky;
-    top: 0px;
-}
-ul{
-    width: 25%;
-    padding-bottom: 70px;
-}
-nav ul{
-    list-style-type: none;
-}
 
-nav ul li{
-    float: left;
-    width: 25%;
-    text-align: center;
-    position: relative;
-}
-.produits{
-    margin-top: 20px;
-}
-
-nav ul::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
-nav a{
-    display: block;
-    text-decoration: none;
-    color: black;
-    border-bottom: 2px solid transparent;
-    padding: 10px 0px;
-}
-
-nav a:hover{
-    color: orange;
-    border-bottom: 2px solid gold;
-}
-
-.sous{
-    display: none;
-    box-shadow: 0px 1px 2px #CCC;
-    background-color: rgba(255, 255, 255, .6);
-    border: 1px solid white;    
-    font-size: 30px;
-    border-radius: 5px;
-    width: 100%;
-    z-index: 1000;
-}
-nav > ul li:hover .sous{
-    display: block;
-}
-.sous li{
-    float: none;
-    width: 100%;
-    text-align: left;
-}
-.sous a{
-    border-bottom: none;
-}
-.sous a:hover{
-    border-bottom: none;
-    background-color: RGBa(200,200,200,0.1);
-}
-.deroulant > a::after{
-    font-size: 12px;
-}
 /* ancrage */
 li{
     text-align: left;
@@ -225,4 +181,31 @@ li{
 }
 .end, button{
     margin-bottom: 20px;
+}
+/* menu déroulant */
+#menu ul{
+    margin: 0px;
+    padding: 15px;
+}
+#menu li{
+    list-style-type: none;
+    float:left;
+    position: relative;
+    
+}
+#menu ul li a{
+    text-decoration: none;
+    color: #551a8b;
+     width: 150px;
+    height: 30px;
+    display: block;
+    text-align: center;
+}
+#menu ul ul{
+    position: absolute;
+    top:30px;
+    visibility:hidden;
+}
+#menu ul  li:hover ul{
+    visibility:visible;
 }

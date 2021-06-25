@@ -6,32 +6,31 @@
     <title>Burger Team</title>    
 </head>
     <header>
-        <nav>
+        <nav id="navb">
             <div class="boxnav">
                 <a href="#apropos">Qui sommes-nous?</a></div>
-            <div class="boxnav">
-                <a href="#produits">Produits</a>
-            </div>
-            <!-- <div class="boxnav">
-            <ul>
-                <li class="deroulant produits"><a href="#">Produits</a>
-                  <ul class="sous">
-                    <li><a href="#">Starters</a></li>
-                    <li><a href="#">Burgers</a></li>
-                    <li><a href="#">Accompagnements</a></li>
-                    <li><a href="#">Désserts</a></li>
-                    <li><a href="#">Boissons</a></li>                    
-                  </ul>
-                </li>
-              </ul> 
-            </div>            -->
-            <div class="boxnav">
-            <a href="#localisation">Localisation</a>
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="#">Produits</a>
+                        <ul>
+                            <li><a href="#starters">Starters</a>
+                            <li><a href="#burgers">Burgers</a>
+                            <li><a href="#accomp">Accompagnements</a>
+                            <li><a href="#dessert">Desserts</a>
+                            <li><a href="#boisson">Boissons</a>
+                       </ul>
+                    </li>               
+                </ul>               
             </div>
             <div class="boxnav">
-                <a href="#contact">Contact</a>
+                <a href="#localisation">Localisation</a>
+            </div>
+            <div class="boxnav">
+                <a href="#contact"> Contact</a>
             </div>
         </nav>
+        <button class="fixed"><a href="#navb">REMONTER</a></button>
     </header>
     <body>         
     <div class="textstart"></div>        
@@ -40,72 +39,108 @@
             <a href="https://fontmeme.com/fr/police-burger-king/">
             <img src="https://fontmeme.com/permalink/210624/7d9206a402687b3d21d7b103c5b53e75.png" class="displayed" alt="police-burger-king">
             </a>
-            <!-- <h1>BURGER</h1>
-            <h1>TEAM</h1> -->
         </div>
         <div class="textend"></div>
           <div class="text row">
-            <h2><a id="apropos">Qui sommes-nous ?</a></h2>
-            <p>Lorsque nous avons ouvert notre restaurant Burger team en mai 2016 nous avons dans l'optique de créer un restaurant de burger de très bonne qualité. </p>
-            <p>Avec nos viande 100% tout droit sorti de nos éleveurs locaux, et nos ingrédients 100% naturels, notre pain frais de notre artisant Boulanger.</p>
-            <p>Nos frites maisons préparées avant chaque service, nos sauces sont artisanales, nos fromages sont 100% Français servi par notre artisant-fromager.</p>
-            <p>Venez découvir votre restaurant de burger favori !!!  </p>
+            <h2 id="apropos">Qui sommes-nous ?</h2>
+            <p>Lorsque nous avons ouvert notre restaurant Burger Team en mai 2016 nous avions dans l'optique de créer un restaurant de burgers de qualité. </p>            
+            <p>Avec nos viandes 100% en provenance d'éleveurs locaux, nos ingrédients 100% naturels et notre pain frais fournit par notre artisant boulanger.</p>
+            <p>Nos frites maisons préparées avant chaque service, nos sauces sont faites maison, nos fromages sont 100% Français servis par un fromager d'Amiens.</p>
+            <p>Venez découvir notre restaurant de Burgers !!!  </p>
         </div>
         <!-- Lucas Staters -->
         <div class="text row">
-            <h2>Starters</h2>            
+            <h2 id="starters">Starters</h2>            
             <div>
-                <h3>Oigons rings: De délicieux oignons panés accompagné de sa sauce Barbecue</h3>
+                <h3>Oignons rings: De délicieux oignons panés accompagnés de sa sauce Barbecue</h3>
                 <img class="displayed2" src="assets/img/oignonsrings.jpg" alt="oignons rings">                
             </div>
             <div>
-                <h3>Tenders : De délicieux filets de poulets panés accompagné d'une sauce au choix</h3>
+                <h3>Tenders : De délicieux filets de poulets panés accompagnés d'une sauce au choix</h3>
                 <img class="displayed2" src="assets/img/tenders.png" alt="tenders">                
             </div>
-                <h3>wings :De délicieuse ailes de poulet grillées accompagné d'une sauce aux choix</h3>
+                <h3>Wings :De délicieuses ailes de poulet grillées accompagnés d'une sauce aux choix</h3>
                 <img class="displayed2" src="assets/img/wings.jpg" alt="wings">                
             </div>
             <!-- Lucas Burger -->
         <div class="text row" >
-            <h2 id="produits">Burgers</h2>
-            <div>
-                <h3>Cheesburger Classique</h3>
+            <h2 id="burgers">Burgers</h2>
+            <div> 
+                <div class="flexleft">
+                <h3>Cheesburger "Classique"</h3>
                 <img class="displayed2" src="assets/img/cheesburger.jpg" alt="cheesburger">                
+                </div>
+                <div class="flexright">
+                    <ul>
+                        <li>Pain brioché</li>
+                        <li>Steak boucher 180g</li>
+                        <li>Laitue</li>
+                        <li>Tomate</li>
+                        <li>Cornichons</li>
+                        <li>Oignons</li>
+                        <li>Cheddar</li>
+                        <li>Sauce Américaine</li>
+                    </ul>
+                </div>
             </div>
             <div>
-                <h3>Burger du chef</h3>
+                <div class="flexleft">
+                <h3>Burger du "chef"</h3>
                 <img class="displayed2" src="assets/img/burgerpoulet.jpg" alt="Burger aux poulet">                
-            </div>
+                </div>
+                <div class="flexright">
+                    <ul>
+                        <li>Pain brioché</li>
+                        <li>Filet de poulet pané</li>
+                        <li>Laitue</li>
+                        <li>Tomate</li>
+                        <li>Cornichons</li>
+                        <li>Oignons</li>
+                        <li>Cheddar</li>
+                        <li>Sauce Américaine</li>
+                    </ul>
+                </div>
+            </div>    
             <div>
-                <h3>Burger spéciale</h3>
+                <div class="flexleft">
+                <h3>Burger "Le spécial"</h3>
                 <img class="displayed2" src="assets/img/burgerpainnoir.jpg.png" alt="Burger pain noir">                
+                </div>
+                <div class="flexright">
+                    <ul>
+                        <li>Pain noir</li>
+                        <li>Steak boucher 180g</li>
+                        <li>Laitue</li>
+                        <li>Tomate</li>
+                        <li>Cornichons</li>
+                        <li>Oignons</li>
+                        <li>Cheddar</li>
+                        <li>Sauce Fromagère</li>
+                    </ul>
+                </div>
             </div>
         <div class="textend"></div>
-        </div>                    
-        
-        <!-- Lucas Accompagnements -->
-       
+        </div>
+        <!-- Lucas Accompagnements -->       
         <div class="text row">
-            <h2>Accompagnements</h2>
+            <h2 id="accomp">Accompagnements</h2>
             <div>
-                <h3>Frites : de bonne frites maison faite avec de bonne pomme de terre local</h3>
-                <img class="displayed2" src="assets/img/frite.jpg" alt="frite">                
+                <h3>Frites : de bonne frites maison faites avec de bonnes pommes de terre locales</h3>
+                <img class="displayed2" src="assets/img/frite.jpg" alt="frite">
             </div>
             <div>
-                <h3>Potatoes aux épices : de bonne potatoes aux épices maison faite avec de bonne pomme de terre local</h3>
+                <h3>Potatoes aux épices : de bonne potatoes aux épices maison faites avec de bonnes pommes de terre locales</h3>
                 <img class="displayed2" src="assets/img/potatoes-maison-aux-epices.jpeg.jpg" alt="potatoes aux épices">                                
             </div>
             <div>
-                <h3>Salade : une bonne salade de saison avec des produits locaux</h3>
+                <h3>Salade : une bonne salade et notre vignaigrette légèrement relevée</h3>
                 <img class="displayed2" src="assets/img/salade.jpg" alt="salade">                                
             </div>
             <div class="textend"></div>
-        </div>    
-            
         </div>
         <!-- Lucas Desserts -->
         <div class="text row">
-            <h2>Desserts</h2>
+            <h2 id="dessert">Desserts</h2>
             <div>
                 <h3>Milkshake Fraise</h3>
                 <img class="displayed2" src="assets/img/milkshakeFraise.jpg" alt="Milkshake Fraise">                
@@ -117,13 +152,12 @@
             <div>
                 <h3>Salade de fruits : de bonne salades aux fruits de saison</h3>
                 <img class="displayed2" src="assets/img/saladeDeFruits.jpg" alt="Salade de fruits">                
-            </div>
-        </div>
+            </div>        
         <div class="textend"></div>
         </div>
         <!-- Lucas Boissons -->
         <div class="text row">
-            <h2>Boissons</h2>
+            <h2 id="boisson">Boissons</h2>
             <div>
                 <h3>Coca-cola</h3>
                 <img class="displayed2" src="assets/img/coca.jpg" alt="Bouteille coca">                
@@ -136,7 +170,7 @@
                 <h3>Eau minéral</h3>
                 <img class="displayed2" src="assets/img/volvic.jpg" alt="Bouteille d'eau">                
             </div>
-<!-- Lucas Location -->
+        <!-- Lucas Location -->
         </div>
         <div class="text row">
             <h2 id="localisation">Localisation</h2>
@@ -152,44 +186,34 @@
                 <p>Dimanche :11h-14h/19h-22h30</p>            
         </div>
         <!-- Lucas contact -->
-        <div class="text row end">
-            <h2 id="contact">Contact</h2>
-            <form action="" method="POST">            
-                <p> Nom :<input type="text"></p>
-                <p> Prénom :<input type="text"></p>
-                <p> Adresse mail :<input type="mail"></p>
-                <button>VALIDER</button>            
-            </form>
-        <!-- <div class="text row">
-            <h2>Contact</h2>
-            <form action="">
-                <label for="Nom">Nom : </label>
-                <input type="text" name="Nom" id="Nom"><br>
-                <label for="Prénom">Prénom : </label>
-                <input type="text" name="Prénom" id="Prénom"><br>
-                <label for="email">Adresse Mail :</label>
-                <input type="text" name="email" id="email"><br>
-                <label for="avis">Votre Message : </label>
-                <textarea type="text" name="avis" id="avis"></textarea>
-            </form>
-        </div> -->
-            <div class="textend"></div>
+        <div class="text row">
+                <h2 id="contact">Contact</h2>
+                <form action="" method="POST">
+                    <p> Nom :<input type="text"></p>
+                    <p> Prénom :<input type="text"></p>
+                    <p> Adresse mail :<input type="mail"></p>
+                    <p>Envoyez-nous un message pour réserver : <textarea name="" id="" cols="30" rows="10"></textarea></p>
+                    <button>VALIDER</button>
+                </form>
+        </div>
+        <div class="textend"></div>
+        </div>           
     <footer>
         <nav>
             <div class="boxnav">
-                <a href="https://www.site-internet-qualite.fr/mentions-legales.html" target="_blank">Mentions Légales</a>
+                <a href="https://www.site-internet-qualite.fr/mentions-legales.html" target="_blank">Mentions Légales</a>            
             </div>
             <div class="boxnav">
-                <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees" target="_blank">RGPD </a>
+                <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees" target="_blank">RGPD </a>            
             </div>
             <div class="boxnav">
                 contact
             </div>
             <div class="boxnav2"> 
-                    <a href="https://www.facebook.com/Burger-Team-107204028281865/photos/?ref=page_internal"><img class="reseau" src="assets/img/fb.png"></a> 
+                    <a href="https://www.facebook.com/Burger-Team-107204028281865/photos/?ref=page_internal"><img class="reseau" src="assets/img/fb.png"></a>
             </div>
             <div class="boxnav2">
-                <a href="https://www.instagram.com/burgerteam3432/?hl=fr"><img class="reseau" src="assets/img/insta.png" alt=""></a>                
+                <a href="https://www.instagram.com/burgerteam3432/?hl=fr"><img class="reseau" src="assets/img/insta.png" alt=""></a>              
             </div>
         <div class="textend"></div>                
         </nav>
